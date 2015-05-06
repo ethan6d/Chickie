@@ -1,21 +1,21 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_repeat" id="598" inline="true" x="149" y="-37">
+  <block type="controls_repeat" id="1" inline="true" x="149" y="-37">
     <value name="TIMES">
-      <block type="math_number" id="637">
+      <block type="math_number" id="2">
         <field name="NUM">2</field>
       </block>
     </value>
     <statement name="DO">
-      <block type="movement_reverse" id="608">
+      <block type="movement_reverse" id="3">
         <next>
-          <block type="controls_repeat" id="506" inline="true">
+          <block type="controls_repeat" id="4" inline="true">
             <value name="TIMES">
-              <block type="math_number" id="542">
+              <block type="math_number" id="5">
                 <field name="NUM">10</field>
               </block>
             </value>
             <statement name="DO">
-              <block type="movement_forward" id="585"></block>
+              <block type="movement_forward" id="6"></block>
             </statement>
           </block>
         </next>
